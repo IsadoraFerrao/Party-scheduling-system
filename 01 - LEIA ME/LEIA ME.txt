@@ -1,0 +1,58 @@
+*--------------------**-----------------------* PAMPA FEST *---------------------**----------------------* 
+
+1-Proposta:
+É notável na cidadede Alegrete uma carência em relação a sistemas que efetuem o agendamento de festas, portanto, este trabalho
+tem como objetivo principal o desenvolvimento de um sistema para cadastro e agendamento de festas da empresa Pampa Fest. O sistema
+servirá para que haja uma melhor satisfação do dono da empresa Pampa Fest, pois, irá suprir necessidades de organização das festas
+relacionadando aos clientes, suprindo assim, a necessidade folhas e perdas de informações, seja dos clientes ou das festas.
+
+2-Resultados:
+O proprietário gostou do resultado do sistema, relatou que agora não tem mais problemas com as perdas de folhas ou rasuras, o processo
+de organização da empresa tornou-se muito mais eficiente e ter um sistema que faz essa organização passa credibilidade aos clientes.
+Além disso, como meta futura o proprietário da empresa quer expandir o sistema, querendo organizar no sistema também os funcionários
+e para quais festas eles serão alocados.
+
+3-Manual de Instalação
+Siga os seguintes passos:
+
+1- Para testar o sistema você vai precisar baixar os seguintes programas:
+	3-a)Netbeans
+	3-b)PgAdmin III
+
+2- Baixe também o arquivo jar do link disponibilizado conforme a versão do seu Netbeans
+	Link:https://jdbc.postgresql.org/download.html
+
+3- Coloque o arquivo jar no diretório
+	Caminho:Disco Local C -> Arquivos de Programas -> NetBeans -> ide -> modules -> lib -> Salve aqui o arquivo jar
+
+4- Abra o PqAdmin, crie a base de dados trabalhoPOO e importe no botão sql o arquivo TralhoPOO.sql da pasta disponibilizada
+
+5- Execute as tabelas do arquivo sql, para isso, basta selecionar o código e clicar play.
+
+6- Abra o Netbeans
+
+7- Importe o projeto java para o programa disponibilizado na pasta
+
+8-Clique no lado esquerdo em +Biblioteca 
+
+9-Com o botão direito clique Adicione JAR/ pasta e selecione o arquivo jar que você baixou do link disponibilizado
+
+10-Pronto, aproveite para organizar sua agenda de festas no sistema Pampa Fest !
+	
+4-Manual de Uso
+
+1- Compile o sistema
+
+2-Para maior controle das informações da empresa, foi criado um login de segurança:
+	Login: Admin
+	Senha: Admin
+
+3- Agora você pode controlar clientes, festas e armazená-los em união na agenda do sistema Pampa Fest.
+
+
+Considerações finais:
+O programa esta equipado com segurança de login e senha para ninguém que acessar o computador
+local do sistema poder acessar as informações da empresa, além disso, é possível adicionar,
+editar, excluir, buscar e excluir festas e clientes. Além disso, existe uma agenda que relaciona
+um cliente a uma festa, ou seja, ocorre uma organização de ambos, além dos dados ficarem armazenados
+sem qualquer relacionamento, para que, não seja preciso re-inserir em outras oportunidades.
